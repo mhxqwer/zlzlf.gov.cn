@@ -1,0 +1,31 @@
+.msgAddBox { padding: 20px 25px; background: #fff; border-top: 1px solid #dddddd; }
+.msgAddBox .msgAdd { height: 30px; }
+.msgAddBox .inputTxt { height: 20px; line-height: 20px; padding: 0; border: 1px solid #dddddd; width: 90px; color: #777777; }
+.msgAddBox .msgAddTit { display: none; }
+.msgAddBox .msgAddUser { height: 22px; line-height: 22px; }
+.msgAddBox .msgAddUser label { float: left; display: inline; padding-right: 15px; }
+.msgAddBox .msgAddUser i { color: #f00; }
+.msgAddBox .msgAddUser #commentRankingBlock { float: right; display: inline; }
+.msgAddBox #commentEmail { width: 180px; }
+.msgAddBox #commentContnet { margin-top: 5px; background: #fff; border: 1px solid #dddddd; width: 100%; height: 60px; }
+.msgAddBox .msgSubmitBar { padding-top: 10px; height: 22px; line-height: 22px; }
+.msgAddBox .msgSubmitBar #commentValidCodeImg { float: left; display: inline; margin-right: 5px; }
+.msgAddBox .msgSubmitBar .inputTxt { float: left; display: inline; margin-right: 5px; margin-top: -1px; }
+.msgAddBox .msgSubmitBar .msgAddBtn { float: left; display: inline; height: 20px; line-height: 20px; width: 80px; text-align: center; text-decoration: none; color: #fff; border: 1px solid #004c99; border-radius: 3px; box-shadow: inset white 0 0 1px; background: url('../fonts/37f6afd7777d4de890c6261154b9aa2f.woff'); background: linear-gradient(to bottom, #0066cc 0%, #0066cc 60%, #0059b3 60%, #0059b3 100%); background-color: #0066cc;}
+
+.comListBox { margin: 10px 0; }
+
+.msgList li { margin-bottom: 15px; border: solid #ddd; border-width: 1px 0; background: #fff; box-shadow: #f1f1f1 0 3px 0; }
+.msgList .msgInfo { height: 26px; line-height: 26px; padding: 0 10px; border-bottom: 1px solid #dfdfdf; color: #999; }
+.msgList .msgInfo .reviewer { font-weight: 600; color: #c60; }
+.msgList .msgInfo .star { float: right; display: inline; }
+.msgList .msgInfo .star em { float: left; display: inline; }
+.msgList .msgInfo .stars { display: block; width: 80px; height: 16px; margin-top: 5px; background: url('../images/stars-s747e049a38.png') 0 0 repeat-x; }
+.msgList .msgInfo .stars i { display: block; width: 0; height: 16px; background: url('../images/stars-s747e049a38.png') 0 -26px repeat-x; }
+.msgList .msgContent { *zoom: 1; padding: 10px; }
+.msgList .msgContent:after { content: ""; display: table; clear: both; }
+.msgList .msgContent .userPic { float: left; display: inline; padding-right: 10px; }
+.msgList .msgContent .userPic img { width: 80px; height: 80px; }
+.msgList .msgContent .msgCon { overflow: hidden; _zoom: 1; }
+.msgList .msgContent .msgReply { border-top: 1px dotted #999999; margin-top: 5px; padding-top: 10px; }
+.msgList .msgContent .msgReplyer { font-weight: 600; }
